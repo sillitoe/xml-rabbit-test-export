@@ -1,4 +1,22 @@
-# Creating XML::Rabbit objects from non-XML sources
+# Using XML::Rabbit to render XML
+
+
+* exporting XML from `XML::Rabbit` classes is easy with [`MooseX::Templated`](https://metacpan.org/pod/MooseX::Templated).
+* creating `XML::Rabbit` objects from non-XML sources currently fails 
+
+I think I just need to tell `XML::Rabbit` to turn off all requirements since Moose attributes will complain if there are any problems.
+
+What's the best of doing that?
+
+* initialisation parameter? (`Foo->new(no_rabbit => 1)`?)
+
+What's the best way of implementing that?
+
+* ??
+
+This repo contains a simple test case - discussed below.
+
+---
 
 I can use `MooseX::Templated` to export objects as XML, eg
 
