@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<foo xmlns="http://www.myschema.com/schema/foo"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.myschema.com/schema/foo foo.xsd">
+  <title id="1">All the best bars</title>
+  <bars>
+    <bar id="bar1">Moe's</bar>
+    <bar id="bar2">Cheers</bar>
+  </bars>
+</foo>
